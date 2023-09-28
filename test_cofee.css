@@ -1,0 +1,40 @@
+*{box-sizing: border-box;}
+
+html, body,
+ul, ol, li, nav,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    display: flex;
+    
+    height: 65px;
+    width: 100%;
+    background-color: rgba(202, 57, 32, 0.883);
+    
+}
+.logo {
+    
+    align-items: center;
+    margin-top: 20px;
+}
+.logo h1 {
+    font-size: 1.5rem;
+}
+.menu_bar {
+    list-style: none;
+    display: flex;
+}
+.menu_bar li {
+    margin-left: 1rem;
+}
+
+.key-visual-img {
+    display: block;
+    width: 100%;
+    height: 500px;
+
+}
+
