@@ -165,7 +165,7 @@
 }
 */
 
-@media screen and (max-width:767.98px) {
+@media screen and (max-width:780px) {
     .block p {
         color: red;
     }
